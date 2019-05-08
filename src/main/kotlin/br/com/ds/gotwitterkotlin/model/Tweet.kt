@@ -1,9 +1,9 @@
 package br.com.ds.gotwitterkotlin.model
 
-//import org.springframework.data.mongodb.core.mapping.Document
+import org.springframework.data.mongodb.core.mapping.Document
 import java.util.*
 
-//@Document("Tweet")
+@Document("Tweet")
 data class Tweet (val id: String,
                   val author: String,
                   val content: String,

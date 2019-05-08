@@ -8,7 +8,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'br.com.ds'
 version = '1.0-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '11'
 
 configurations {
     compileOnly {
